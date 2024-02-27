@@ -2,8 +2,10 @@ body {
   background: #090909;
 }
 
+
 .bg-black {
-    rgb(0 0 0 / 56%) !important;
+    --bs-bg-opacity: 1;
+    background-color: rgb(0 0 0 / 73%) !important;
 }
 
 .card-project:hover {
