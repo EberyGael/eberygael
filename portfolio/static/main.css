@@ -3,7 +3,7 @@ body {
 }
 
 .bg-black {
-  background: #958ffe;
+    rgb(0 0 0 / 56%) !important
 }
 
 .card-project:hover {
