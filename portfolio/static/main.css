@@ -5,7 +5,7 @@ body {
 
 .bg-black {
     --bs-bg-opacity: 1;
-    rgb(44 54 135 / 73%) !important;
+    background-color: #2e0acaad !important;
 }
 
 .card-project:hover {
