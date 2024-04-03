@@ -784,9 +784,14 @@
   <script src="assets/js/mixitup.min.js"></script>
 
   <!--=============== MAIN JS ===============-->
-  <script src="assets/js/main.js"></script>
-  {% static 'scrollreveal.min.js' %}
-  {% static 'swiper-bundle.min.js' %}
-  {% static 'mixitup.min.js' %}
-  {% static 'main.js' %}
+  <script src="{% static 'scrollreveal.min.js' %}"></script>
+  <script src="{% static 'swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'mixitup.min.js' %}"></script>
+  <script src="{% static 'main.js' %}"></script>
+  
+
+  <div class="container p-4">
+    {% block content %}
+    {% endblock %}
+  </div>
 </body>
