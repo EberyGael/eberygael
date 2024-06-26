@@ -1081,8 +1081,8 @@ body.light-theme {
   }
 
   .home__handle {
-    width: 290px;
-    height: 400px;
+    width: 190%;
+    height: 160px;
   }
 
   .home__img {
