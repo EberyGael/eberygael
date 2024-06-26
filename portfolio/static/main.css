@@ -734,8 +734,8 @@ body.light-theme {
 }
 
 .contact__card {
-  background-color: var(--container-color);
-  padding: 2rem 1rem;
+  background-color: #eef2f8;
+  padding: 1rem .5rem;
   border-radius: 0.75rem;
   text-align: center;
 }
