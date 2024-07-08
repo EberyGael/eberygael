@@ -132,7 +132,7 @@
           <div class="home__container container grid">
               <div class="home__data">
                   <span class="home__greeting">Hola, soy</span>
-                  <h1 class="home__name">Eber Raziel</h1>
+                  
                   <h3 class="home__education">Ingeniero en Sistemas computacionales</h3>
 
                   <div class="home__button">
@@ -144,8 +144,16 @@
                   </div>
               </div>
 
-              <div class="home__handle">
-                  <img src="{% static 'perfil.png' %}" alt="" class="home__img">
+              <div class="home__handle" data-sr-id="3" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.1s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.1s;">
+                <div class="contact__card">
+                          <i class="bx bxl-whatsapp contact__card-icon"></i>
+                          <h3 class="contact__card-title">Whatsapp</h3>
+                          
+
+                          <a href="https://api.whatsapp.com/send?phone=+525546155466&amp;text=Hola Eber!" target="_blank" class="contact__button">
+                              Envía un mensaje <i class="bx bx-right-arrow contact__button-icon"></i>
+                          </a>
+                      </div>
               </div>
 
               <div class="home__social">
